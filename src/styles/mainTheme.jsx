@@ -1,7 +1,8 @@
 const mainTheme = {
   colors: {
     mainText: "#000",
-    greyText: "#b8",
+    greyText: "#b8b8b8",
+    white: "#fff",
     lighter: "#E0C11E",
   },
   typography: {
