@@ -11,10 +11,15 @@ html {
   font-family: ${({ theme }) => theme.typography.mainFontFamily}
 }
 
-body, h1, h2, h3, h4, p  {
+body, h1, h2, h3, h4 {
   margin: 0;
   text-align: center;
 }
+
+p {
+   margin: 0;
+}
+
 
 ul, ol, 
 li {
@@ -45,6 +50,10 @@ h1, h2, h3, h4, p {
 button {
   cursor: pointer;
 }
+
+body.home-page {
+    overflow: hidden; /* Evitar scroll en la HomePage */
+  }
 `;
 
 export default GlobalStyle;
