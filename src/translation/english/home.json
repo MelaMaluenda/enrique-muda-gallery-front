@@ -1,0 +1,33 @@
+{
+  "navigation": {
+    "name": "Enrique Muda",
+    "menu-work": "Work",
+    "menu-bio": "Bio"
+  },
+
+  "work": {
+    "project1": "Sydney Postcards",
+    "project2": "Split",
+    "project3": "Portraits",
+    "project4": "Landscapes"
+  },
+
+  "biography": {
+    "p1": "Born in Barcelona in 1977, Enrique Muda Bull is a photographer who studied photojournalism with Sandra Balsells, in the framework of Llicenciatura de Ciències de la Comunicació (Facultat Blanquerna, Barcelona). Afterwards, when he left for Australia, he studied artistic photography as part of the bachelor’s in fine arts (TAFE, Sydney). He finished his education in ACP (Australian Centre for Photography) with Marco Bok, where he studied documentary photography.",
+    "p2": "He consolidated his training as a photographer taking pictures, spending time in the streets and public spaces observing the human community that surrounds him as if they were characters of a theatrical work.",
+    "p3": "Muda is a photographer of the observation and not imagination. He believes that reality exceeds fiction. Or, in other words, that any kind of fiction is inspired in the observation of reality.",
+    "p4": "He started out his career in the beginning of the XXI century developing his personal project in Sydney and, from that moment, he keeps on photographing the streets wherever he is, usually in Barcelona, but also in New York. He exhibited at Círculo de Bellas Artes de Madrid, published in photography magazines, and worked for clients such as the Ajuntament de Barcelona, Museu del Disseny or MACBA. "
+  },
+
+  "sydney": {
+    "title": "Sydney Postcards /",
+    "year": "(2004 - 2005)",
+    "p1": "The documentary work Sydney Postcards is the starting point of a photographic career that, from the very beginning, has set its roots in the immortalization of that which surrounds the author, Enrique Muda.",
+    "p2": "Born in Barcelona, the photographer's first adult decision was leaving to the Antipodes. There, he found himself alone, spending his days walking around that gigantic city in which he wasn't just a stranger, but also everything was new to him. After weeks of endless walks, he started to feel he was wasting the time in which he observed instants that could never happen in any other moment or place, losing the chance to share them. It was then when photography unstoppably entered his life: it gave sense and purpose to his daily life, the opportunity to discover at the same time he recorded whatever crossed his path.",
+    "p3": "Sydney Postcards is, before anything else, Muda's photographic diary. He portrayed all which surrounded him and observed in his daily life, with a fixation with the uncanny and ambiguous of situations: corporeality and the way people relate to space and the things they do through their body was something that really caught his attention. He couldn't help but notice the way someone would read the newspaper on a bus, or how some other person would sit in a window talking on the phone. He realized that gestures that could go unnoticed really made an impression on him and motivated him to portray them. He started trusting his intuition to capture moments.",
+    "p4": "He considered black and white to be the most adequate way to carry out his immersion in image. A choice that answered to his journalism education, in which photography without color was considered a synonym of truth and timelessness. And that was somehow what he was looking for in the immortalization of his daily life. Black and white allowed him to experiment and understand the possibilities of film development from the start.",
+    "p5": "This is how the camera became his way of relating to the environment, his way of capturing the genuineness of situations. Sydney Postcards, with a linked style to street photography, is full of known and unknown people, familiar and strange places, but also with memories of a city that awakened his interest and boldness to observe and capture the everyday life. It was there, in Sydney, where he stepped from youth into adulthood. Where he knew he was going to be a photographer.",
+    "author": "Written by Mar Olave",
+    "opening": "Opening - 13/06/2023 - Barcelona"
+  }
+}
