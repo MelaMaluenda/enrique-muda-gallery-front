@@ -4,7 +4,7 @@ import HomePage from "../../pages/HomePage/HomePage";
 import AppStyled from "./AppStyled";
 import WorkPage from "../../pages/WorkPage/WorkPage";
 import BioPage from "../../pages/BioPage/BioPage";
-import Sydney from "../../pages/Sydney/Sydney";
+import Sydney from "../../pages/CarouselPages/Sydney/Sydney";
 
 const App = () => {
   return (
