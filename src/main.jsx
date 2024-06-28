@@ -13,8 +13,8 @@ import mainTheme from "./styles/mainTheme";
 import GlobalStyle from "./styles/GlobalStyle";
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
-import home_eng from "./translation/english/home.json";
-import home_esp from "./translation/español/home.json";
+import home_eng from "./translation/english/home";
+import home_esp from "./translation/español/home";
 
 i18next.init({
   interpolation: { escapeValue: false },
