@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import BigCarousel from "../../../components/BigCarousel/BigCarousel";
 import SmallCarousel from "../../../components/SmallCarousel/SmallCarousel";
-import CarouselStyled from "./CarouselStyled";
+import CarouselStyled from "../CarouselStyled";
 import Footer from "../../../components/Footer/Footer";
 
 const images = [
