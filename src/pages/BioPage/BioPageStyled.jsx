@@ -32,7 +32,7 @@ const BioPageStyled = styled.article`
       text-align: left;
 
       &--p {
-        color: #000;
+        color: ${({ theme }) => theme.colors.mainText};
         font-family: ${({ theme }) => theme.typography.mainFontFamily};
         font-size: 16px;
       }
