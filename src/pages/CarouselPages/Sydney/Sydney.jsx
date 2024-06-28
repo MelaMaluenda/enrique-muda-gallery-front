@@ -6,16 +6,16 @@ import CarouselStyled from "../CarouselStyled";
 import Footer from "../../../components/Footer/Footer";
 
 const images = [
-  "images/sydney1.jpg",
-  "images/sydney2.jpg",
-  "images/sydney3.jpg",
-  "images/sydney4.jpg",
-  "images/sydney5.jpg",
-  "images/sydney6.jpg",
-  "images/sydney7.jpg",
-  "images/sydney8.jpg",
-  "images/sydney9.jpg",
-  "images/sydney10.jpg",
+  "images/sydney/sydney1.jpg",
+  "images/sydney/sydney2.jpg",
+  "images/sydney/sydney3.jpg",
+  "images/sydney/sydney4.jpg",
+  "images/sydney/sydney5.jpg",
+  "images/sydney/sydney6.jpg",
+  "images/sydney/sydney7.jpg",
+  "images/sydney/sydney8.jpg",
+  "images/sydney/sydney9.jpg",
+  "images/sydney/sydney10.jpg",
 ];
 
 const SydneyPostcards = () => {
@@ -54,14 +54,14 @@ const SydneyPostcards = () => {
           <div className="sydney__opening--photos">
             <img
               className="sydney__opening--images"
-              src="images/1.jpg"
+              src="images/sydney/1.jpg"
               alt="Exposition gallery"
               width={200}
               height={200}
             />
             <img
               className="sydney__opening--images"
-              src="images/2.jpg"
+              src="images/sydney/2.jpg"
               alt="Exposition gallery with a projector"
               width={200}
               height={200}
