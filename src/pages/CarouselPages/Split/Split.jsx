@@ -47,7 +47,6 @@ const Split = () => {
             <p className="sydney__text--p">{t("split.p4")}</p>
             <p className="sydney__text--p">{t("split.p5")}</p>
           </div>
-          <span className="sydney__text--span">{t("sydney.author")}</span>
         </article>
       </div>
       <Footer />

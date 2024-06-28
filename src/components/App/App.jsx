@@ -6,6 +6,7 @@ import WorkPage from "../../pages/WorkPage/WorkPage";
 import BioPage from "../../pages/BioPage/BioPage";
 import Sydney from "../../pages/CarouselPages/Sydney/Sydney";
 import Split from "../../pages/CarouselPages/Split/Split";
+import Portraits from "../../pages/CarouselPages/Portraits/Portraits";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/bio" element={<BioPage />} />
         <Route path="/sydney" element={<Sydney />} />
         <Route path="/split" element={<Split />} />
+        <Route path="/portraits" element={<Portraits />} />
       </Routes>
     </AppStyled>
   );
