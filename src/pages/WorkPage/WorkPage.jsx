@@ -24,7 +24,7 @@ const WorkPage = () => {
           </Link>
         </li>
         <li className="menu--work__title">
-          <Link aria-label="landscapes" to="/">
+          <Link aria-label="landscapes" to="/Landscapes">
             {t("work.project4")}
           </Link>
         </li>

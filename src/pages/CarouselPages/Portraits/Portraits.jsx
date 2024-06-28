@@ -38,14 +38,14 @@ const Portraits = () => {
           />
         </article>
         <article className="sydney__explanation">
-          <h3 className="sydney__explanation--title">{t("split.title")}</h3>
-          <h4 className="sydney__explanation--title">{t("split.year")}</h4>
+          <h3 className="sydney__explanation--title">{t("portraits.title")}</h3>
+          <h4 className="sydney__explanation--title">{t("portraits.year")}</h4>
           <div className="sydney__text">
-            <p className="sydney__text--p">{t("split.p1")}</p>
-            <p className="sydney__text--p">{t("split.p2")}</p>
-            <p className="sydney__text--p">{t("split.p3")}</p>
-            <p className="sydney__text--p">{t("split.p4")}</p>
-            <p className="sydney__text--p">{t("split.p5")}</p>
+            <p className="sydney__text--p">{t("portraits.p1")}</p>
+            <p className="sydney__text--p">{t("portraits.p2")}</p>
+            <p className="sydney__text--p">{t("portraits.p3")}</p>
+            <p className="sydney__text--p">{t("portraits.p4")}</p>
+            <p className="sydney__text--p">{t("portraits.p5")}</p>
           </div>
         </article>
       </div>
