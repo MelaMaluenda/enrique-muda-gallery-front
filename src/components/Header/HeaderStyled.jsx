@@ -13,6 +13,7 @@ const HeaderStyled = styled.header`
       padding: 0;
       font-size: 16px;
       white-space: nowrap;
+      font-family: ${({ theme }) => theme.typography.titleFontFamily};
     }
   }
 

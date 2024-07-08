@@ -43,7 +43,7 @@ const Landscapes = () => {
           </h3>
           <h4 className="sydney__explanation--title">{t("landscapes.year")}</h4>
           <div className="sydney__text">
-            <p className="sydney__text--p">{t("andscapes.p1")}</p>
+            <p className="sydney__text--p">{t("landscapes.p1")}</p>
             <p className="sydney__text--p">{t("landscapes.p2")}</p>
             <p className="sydney__text--p">{t("landscapes.p3")}</p>
             <p className="sydney__text--p">{t("landscapes.p4")}</p>

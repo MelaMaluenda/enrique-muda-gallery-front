@@ -11,13 +11,15 @@ html {
   font-family: ${({ theme }) => theme.typography.mainFontFamily}
 }
 
-body, h1, h2, h3, h4 {
+body, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
-  text-align: center;
+  color: ${({ theme }) => theme.colors.mainText};
+  
 }
 
 p {
-   margin: 0;
+  margin: 0;
+  text-align: justify;
 }
 
 
@@ -40,11 +42,6 @@ input {
   padding: 10px;
   border:none;
   border-radius: 5px;
-}
-
-h1, h2, h3, h4, p {
-  color: ${({ theme }) => theme.colors.mainText};
-  font-family: ${({ theme }) => theme.typography.titleFontFamily};
 }
 
 button {
