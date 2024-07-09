@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const Navigation = () => {
-  const [t] = useTranslation("home");
+  const [t] = useTranslation("translation");
 
   return (
     <NavigationStyled>

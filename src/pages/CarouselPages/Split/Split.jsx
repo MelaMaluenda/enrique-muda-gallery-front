@@ -19,7 +19,7 @@ const images = [
 ];
 
 const Split = () => {
-  const [t] = useTranslation("home");
+  const { t } = useTranslation("translation");
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (

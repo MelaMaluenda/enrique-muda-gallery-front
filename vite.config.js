@@ -22,5 +22,10 @@ export default defineConfig({
         "**/src/main.jsx",
       ],
     },
+    build: {
+      rollupOptions: {
+        external: ["i18next-http-backend"],
+      },
+    },
   },
 });

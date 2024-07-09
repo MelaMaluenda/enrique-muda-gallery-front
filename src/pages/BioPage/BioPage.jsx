@@ -3,7 +3,7 @@ import Footer from "../../components/Footer/Footer";
 import { useTranslation } from "react-i18next";
 
 const BioPage = () => {
-  const [t] = useTranslation("home");
+  const { t } = useTranslation("translation");
 
   return (
     <BioPageStyled>
