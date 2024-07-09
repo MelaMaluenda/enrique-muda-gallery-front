@@ -11,33 +11,15 @@ import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import mainTheme from "./styles/mainTheme";
 import GlobalStyle from "./styles/GlobalStyle";
-import { I18nextProvider } from "react-i18next";
-import i18next from "i18next";
-import home_eng from "./translation/english/home.json";
-import home_esp from "./translation/español/home.json";
-
-i18next.init({
-  interpolation: { escapeValue: false },
-  lng: "eng",
-  resources: {
-    eng: {
-      home: home_eng,
-    },
-    esp: {
-      home: home_esp,
-    },
-  },
-});
+import "./i18n.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <I18nextProvider i18n={i18next}>
-      <BrowserRouter>
-        <ThemeProvider theme={mainTheme}>
-          <GlobalStyle />
-          <App />
-        </ThemeProvider>
-      </BrowserRouter>
-    </I18nextProvider>
+    <BrowserRouter>
+      <ThemeProvider theme={mainTheme}>
+        <GlobalStyle />
+        <App />
+      </ThemeProvider>
+    </BrowserRouter>
   </React.StrictMode>,
 );

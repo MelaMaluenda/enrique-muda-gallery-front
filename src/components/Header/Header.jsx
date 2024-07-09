@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const Header = () => {
-  const [t, i18n] = useTranslation("home");
+  const { t, i18n } = useTranslation("home");
 
   return (
     <HeaderStyled className="head">
@@ -17,13 +17,13 @@ const Header = () => {
         <Navigation />
         <button
           className="button--lang"
-          onClick={() => i18n.changeLanguage("esp")}
+          onClick={() => i18n.changeLanguage("es")}
         >
           ESP
         </button>
         <button
           className="button--lang"
-          onClick={() => i18n.changeLanguage("eng")}
+          onClick={() => i18n.changeLanguage("en")}
         >
           ENG
         </button>
