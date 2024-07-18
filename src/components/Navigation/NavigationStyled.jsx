@@ -7,6 +7,7 @@ const NavigationStyled = styled.nav`
     justify-content: space-between;
     padding: 3px;
     align-items: center;
+    padding-top: 6px;
 
     &__work,
     &__bio {

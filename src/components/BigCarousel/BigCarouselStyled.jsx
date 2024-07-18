@@ -21,6 +21,8 @@ const BigCarouselStyled = styled.div`
       background-position: center;
       background-repeat: no-repeat;
       transition: transform 0.5s ease;
+      border-left: 5px solid ${({ theme }) => theme.colors.white};
+      border-right: 5px solid ${({ theme }) => theme.colors.white};
     }
 
     &__button {

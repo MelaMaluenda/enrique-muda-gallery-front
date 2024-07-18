@@ -12,8 +12,6 @@ const images = [
   "images/landscapes/landscapes4.jpg",
   "images/landscapes/landscapes5.jpg",
   "images/landscapes/landscapes6.jpg",
-  "images/landscapes/landscapes7.jpg",
-  "images/landscapes/landscapes8.jpg",
   "images/landscapes/landscapes9.jpg",
   "images/landscapes/landscapes10.jpg",
 ];
