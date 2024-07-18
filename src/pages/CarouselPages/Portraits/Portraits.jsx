@@ -46,6 +46,7 @@ const Portraits = () => {
             <p className="sydney__text--p">{t("portraits.p3")}</p>
             <p className="sydney__text--p">{t("portraits.p4")}</p>
             <p className="sydney__text--p">{t("portraits.p5")}</p>
+            <p className="sydney__text--p">{t("portraits.p6")}</p>
           </div>
         </article>
       </div>

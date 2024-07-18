@@ -46,6 +46,9 @@ const Split = () => {
             <p className="sydney__text--p">{t("split.p3")}</p>
             <p className="sydney__text--p">{t("split.p4")}</p>
             <p className="sydney__text--p">{t("split.p5")}</p>
+            <p className="sydney__text--p">{t("split.p6")}</p>
+            <p className="sydney__text--p">{t("split.p7")}</p>
+            <p className="sydney__text--p">{t("split.p8")}</p>
           </div>
         </article>
       </div>
